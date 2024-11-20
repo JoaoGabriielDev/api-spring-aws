@@ -21,6 +21,8 @@ public class Coupon {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
+
+    private String code;
     private Integer discount;
     private Date valid;
 

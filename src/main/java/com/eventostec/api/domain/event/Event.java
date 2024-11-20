@@ -21,7 +21,7 @@ public class Event {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private String title;
-    private String description;
+    private String discription;
     private String imgUrl;
     private String eventUrl;
     private Boolean remote;
